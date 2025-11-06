@@ -61,7 +61,7 @@ The dataset is categorized based on the following data-driven, five-level standa
 | ----------------- | ------------------ | ------------------------ |
 | `1_Very_Mild`     | Very Mild          | 0% < R ≤ 5%              |
 | `2_Mild`          | Mild               | 5% < R ≤ 10%             |
-| `3_Mild_Moderate` | Mild-Moderate      | 10% < R ≤ 15%            |
+| `3_Mild_Moderate` | Mild Moderate      | 10% < R ≤ 15%            |
 | `4_Moderate`      | Moderate           | 15% < R ≤ 25%            |
 | `5_Severe`        | Severe             | R > 25%                  |
 
@@ -147,4 +147,5 @@ Visualizations show PoplarFormer's superior ability to focus on relevant patholo
 
 
 This project is licensed under the Apache 2.0 License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
+
 
