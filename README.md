@@ -38,7 +38,7 @@ It introduces two key components:
 The model is supervised by the **CORAL loss function** to explicitly embed the ordinal relationship between severity levels.
 
 The overall architecture of PoplarFormer is shown below:
-
+![PoplarFormer Architecture](./assets/PoplarFormer.jpg)
 *The overall architecture of PoplarFormer.*
 
 ## 📁 Dataset: Poplar-BSR5
@@ -144,5 +144,6 @@ Visualizations show PoplarFormer's superior ability to focus on relevant patholo
 *Grad-CAM visualizations comparing the baseline (top row) vs. PoplarFormer (bottom row).*
 
 ## 📄 License
+
 
 This project is licensed under the Apache 2.0 License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
