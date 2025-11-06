@@ -2,6 +2,10 @@
 
 ### "PoplarFormer: A Hybrid Deep Learning Architecture for Ordinal Severity Grading of Poplar Black Spot Disease"
 
+<img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License">
+
+<img src="https://img.shields.io/badge/Python-3.10-3776AB.svg?logo=python&logoColor=white" alt="Python 3.10">
+
 This repository provides the official implementation for **PoplarFormer**. The benchmark dataset **Poplar-BSR5** and the automated quantification pipeline **DPLS-IRQ** were also developed as part of this study.
 
 Our work tackles the challenge of subjective and non-standardized assessment of poplar black spot disease by providing a complete, end-to-end quantitative framework.
@@ -53,19 +57,13 @@ All 4,955 images were labeled using our automated DPLS-IRQ pipeline, which preci
 
 The dataset is categorized based on the following data-driven, five-level standard:
 
-|
-
-| Class Name | Severity Level | Infection Rate Range |
-
-| 1_Very_Mild | Very Mild | 0% < R ≤ 5% |
-
-| 2_Mild | Mild | 5% < R ≤ 10% |
-
-| 3_Mild_Moderate | Mild-Moderate | 10% < R ≤ 15% |
-
-| 4_Moderate | Moderate | 15% < R ≤ 25% |
-
-| 5_Severe | Severe | R > 25% |
+| **Class Name**    | **Severity Level** | **Infection Rate Range** |
+| ----------------- | ------------------ | ------------------------ |
+| `1_Very_Mild`     | Very Mild          | 0% < R ≤ 5%              |
+| `2_Mild`          | Mild               | 5% < R ≤ 10%             |
+| `3_Mild_Moderate` | Mild-Moderate      | 10% < R ≤ 15%            |
+| `4_Moderate`      | Moderate           | 15% < R ≤ 25%            |
+| `5_Severe`        | Severe             | R > 25%                  |
 
 ## 🛠️ Installation
 
@@ -130,19 +128,14 @@ python evaluate.py
 
 PoplarFormer significantly outperforms other baseline and SOTA models on the Poplar-BSR5 test set.
 
-| Model | Type | Params (M) | Accuracy (%) | Weighted F1-score (%) | MAE (↓) |
-
-| Swin-T (tiny) | ViT | 27.5 | 78.40 | 78.76 | 0.2240 |
-
-| RepViT-M2 | ViT | 22.4 | 79.80 | 79.76 | 0.2100 |
-
-| ConvNeXt-V2 (tiny) | CNN | 27.9 | 80.20 | 80.43 | 0.2020 |
-
-| CoAtNet-0 | Hybrid | 26.7 | 82.40 | 82.58 | 0.1803 |
-
-| EVA-02-small (baseline) | ViT | 21.7 | 81.40 | 81.74 | 0.1901 |
-
-| PoplarFormer (Ours) | Hybrid | 27.6 | 83.80 | 83.96 | 0.1633 |
+| **Model**               | **Type**   | **Params (M)** | **Accuracy (%)** | **Weighted F1-score (%)** | **MAE (↓)** |
+| ----------------------- | ---------- | -------------- | ---------------- | ------------------------- | ----------- |
+| Swin-T (tiny)           | ViT        | 27.5           | 78.40            | 78.76                     | 0.2240      |
+| RepViT-M2               | ViT        | 22.4           | 79.80            | 79.76                     | 0.2100      |
+| ConvNeXt-V2 (tiny)      | CNN        | 27.9           | 80.20            | 80.43                     | 0.2020      |
+| CoAtNet-0               | Hybrid     | 26.7           | 82.40            | 82.58                     | 0.1803      |
+| EVA-02-small (baseline) | ViT        | 21.7           | 81.40            | 81.74                     | 0.1901      |
+| **PoplarFormer (Ours)** | **Hybrid** | **27.6**       | **83.80**        | **83.96**                 | **0.1633**  |
 
 ### Qualitative Results (Grad-CAM)
 
