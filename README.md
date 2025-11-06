@@ -131,13 +131,14 @@ PoplarFormer significantly outperforms other baseline and SOTA models on the Pop
 ### Qualitative Results (Grad-CAM)
 
 Visualizations show PoplarFormer's superior ability to focus on relevant pathological features (both fine-grained and coalesced) compared to the baseline, as shown below:
-![Grad-CAM Results](./assets/Grad_CAM.jpg)
+
 *Grad-CAM visualizations comparing the baseline (top row) vs. PoplarFormer (bottom row).*
 
 ## 📄 License
 
 
 This project is licensed under the Apache 2.0 License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
+
 
 
 
