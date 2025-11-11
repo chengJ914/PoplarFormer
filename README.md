@@ -45,7 +45,7 @@ The overall architecture of PoplarFormer is shown below:
 
 The Poplar-BSR5 dataset is the first large-scale benchmark for quantitative poplar black spot disease severity. Representative samples for each of the five severity classes are shown below:
 ![Dataset Samples](./assets/Dataset_Samples.jpg)
-*Representative samples for each of the five severity classes.*
+
 
 ### DPLS-IRQ Pipeline
 
@@ -129,6 +129,7 @@ Visualizations show PoplarFormer's superior ability to focus on relevant patholo
 
 
 This project is licensed under the Apache 2.0 License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
+
 
 
 
