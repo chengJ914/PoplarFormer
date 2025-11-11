@@ -22,7 +22,7 @@ Our work tackles the challenge of subjective and non-standardized assessment of 
 
 ## 🎯 Key Contributions
 
-1. **DPLS-IRQ Pipeline:** An automated Dual-Phase Lesion Segmentation and Infection Rate Quantification process to derive precise, objective infection rates from leaf images.
+1. **DPLS-IRQ Pipeline** 
 2. **Poplar-BSR5 Dataset:** A new, large-scale benchmark dataset of 4,955 images, annotated with a scientifically-derived **five-level quantitative grading standard**.
 3. **PoplarFormer Model:** A novel hybrid deep learning architecture that achieves state-of-the-art performance in this ordinal grading task.
 
@@ -32,8 +32,8 @@ PoplarFormer is a dual-branch hybrid architecture built upon an advanced **EVA-0
 
 It introduces two key components:
 
-- **Multi-Scale Convolutional Enhancement Module (MSCEM):** A parallel convolutional branch to explicitly extract multi-scale local details and fine-grained lesion features that ViTs often miss.
-- **Synergistic Feature Interaction Module (SFIM):** A robust fusion module that facilitates bidirectional interaction between the local features (from MSCEM) and the global context (from the EVA-02 backbone).
+- **MSCEM:** A parallel convolutional branch to explicitly extract multi-scale local details and fine-grained lesion features that ViTs often miss.
+- **SFIM:** A robust fusion module that facilitates bidirectional interaction between the local features (from MSCEM) and the global context (from the EVA-02 backbone).
 
 The model is supervised by the **CORAL loss function** to explicitly embed the ordinal relationship between severity levels.
 
@@ -138,6 +138,7 @@ Visualizations show PoplarFormer's superior ability to focus on relevant patholo
 
 
 This project is licensed under the Apache 2.0 License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
+
 
 
 
