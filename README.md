@@ -32,8 +32,8 @@ PoplarFormer is a dual-branch hybrid architecture built upon an advanced **EVA-0
 
 It introduces two key components:
 
-- **MSCEM:** A parallel convolutional branch to explicitly extract multi-scale local details and fine-grained lesion features that ViTs often miss.
-- **SFIM:** A robust fusion module that facilitates bidirectional interaction between the local features (from MSCEM) and the global context (from the EVA-02 backbone).
+- **MSCEM** 
+- **SFIM** 
 
 The model is supervised by the **CORAL loss function** to explicitly embed the ordinal relationship between severity levels.
 
@@ -138,6 +138,7 @@ Visualizations show PoplarFormer's superior ability to focus on relevant patholo
 
 
 This project is licensed under the Apache 2.0 License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
+
 
 
 
