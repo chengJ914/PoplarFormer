@@ -38,7 +38,7 @@ It introduces two key components:
 The model is supervised by the **CORAL loss function** to explicitly embed the ordinal relationship between severity levels.
 
 The overall architecture of PoplarFormer is shown below:
-
+![PoplarFormer](./assets/PoplarFormer.jpg)
 *The overall architecture of PoplarFormer.*
 
 ## 📁 Dataset: Poplar-BSR5
@@ -122,7 +122,7 @@ PoplarFormer significantly outperforms other baseline and SOTA models on the Pop
 ### Qualitative Results (Grad-CAM)
 
 Visualizations show PoplarFormer's superior ability to focus on relevant pathological features (both fine-grained and coalesced) compared to the baseline, as shown below:
-
+![Grad-CAM visualizations](./assets/Grad-CAM.jpg)
 *Grad-CAM visualizations comparing the baseline (top row) vs. PoplarFormer (bottom row).*
 
 ## 📄 License
