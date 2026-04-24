@@ -126,6 +126,14 @@ python evaluate.py
 ## 📊 Comparative Analysis
 
 PoplarFormer significantly outperforms other baseline and SOTA models on the Poplar-BSR5 test set.
+| Model | Type | Params (M) | Accuracy (%) | Weighted F1-score (%) | MAE ↓ |
+|---|---|---:|---:|---:|---:|
+| Swin-T (tiny) | ViT | 27.5 | 78.40 | 78.76 | 0.2240 |
+| RepViT-M2 | ViT | 22.4 | 79.80 | 79.76 | 0.2100 |
+| ConvNeXt-V2 (tiny) | CNN | 27.9 | 80.20 | 80.43 | 0.2020 |
+| CoAtNet-0 | Hybrid | 26.7 | 82.40 | 82.58 | 0.1803 |
+| EVA-02-small (baseline) | ViT | **21.7** | 81.40 | 81.74 | 0.1901 |
+| PoplarFormer (Ours) | Hybrid | 27.6 | **83.80** | **83.96** | **0.1633** |
 
 ### Qualitative Results (Grad-CAM)
 
