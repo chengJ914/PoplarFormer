@@ -54,6 +54,14 @@ All 4,955 images were labeled using our automated DPLS-IRQ pipeline, which preci
 *The automated DPLS-IRQ pipeline.*
 
 ### Quantitative Grading Standard
+| Class Name | Infection Rate Range | No. of Images | Distribution (%) |
+|---|---|---:|---:|
+| 1_Very_Mild | 0% < Rinfection ≤ 5% | 1035 | 20.89 |
+| 2_Mild | 5% < Rinfection ≤ 10% | 1157 | 23.35 |
+| 3_Mild_Moderate | 10% < Rinfection ≤ 15% | 824 | 16.63 |
+| 4_Moderate | 15% < Rinfection ≤ 25% | 1035 | 20.89 |
+| 5_Severe | Rinfection > 25% | 904 | 18.24 |
+| Total | - | 4955 | 100.00 |
 
 
 ## 🛠️ Installation
