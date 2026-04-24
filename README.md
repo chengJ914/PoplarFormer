@@ -6,6 +6,12 @@
 
 <img src="https://img.shields.io/badge/Python-3.10-3776AB.svg?logo=python&logoColor=white" alt="Python 3.10">
 
+## 📢 Publication Status
+
+The study associated with this repository has been officially published in **Industrial Crops and Products**.  
+For the final published version, please refer to the DOI: [https://doi.org/10.1016/j.indcrop.2026.122971].
+
+
 This repository provides the official implementation for **PoplarFormer**. The benchmark dataset **Poplar-BSR5** and the automated quantification pipeline **DPLS-IRQ** were also developed as part of this study.
 
 Our work tackles the challenge of subjective and non-standardized assessment of poplar black spot disease by providing a complete, end-to-end quantitative framework.
